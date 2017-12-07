@@ -1,0 +1,23 @@
+/* Navigation
+-----------------------------------------------------------------------------*/
+body{
+text-align: center;
+}
+
+.ul_sp {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    text-align: left;
+
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+.spalte__li {
+float: left;
+}
