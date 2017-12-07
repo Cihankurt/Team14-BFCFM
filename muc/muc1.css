@@ -1,0 +1,22 @@
+
+.mi_spalte {
+    float: center;
+}
+.spalte_a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+
+.logo_tesla{
+
+height: 30px;
+width: 300px;
+text-align: center ;
+position: absolute;
+font-size: 10px;
+}
