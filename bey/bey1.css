@@ -1,0 +1,29 @@
+
+.ul_sp {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    text-align: left;
+
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+.spalte__li {
+float: left;
+}
+
+.mi_spalte {
+    float: center;
+}
+.spalte_a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="de">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+  <title> Tesla S85 </title>
+  <link rel="stylesheet" href="css/NavigationAnimation.css">
+  <link rel="stylesheet" href="css/schriftart.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+<link rel="stylesheet" href="footer/footer.css">
+<link rel="stylesheet" href="body/css/bodyaussehen.css">
+<style>
+@import url('https://fonts.googleapis.com/css?family=Lato');
+</style>
+
+</head>
+
+<header>
+  <nav>
+ <ul class="ul_sp" >
+   <li class="spalte__li"><a class="spalte_a"  href="#">MODEL S</a> </li>
+    <li class="spalte__li"><a class="spalte_a" href="#">MODEL X</a> </li>
+     <li class="spalte__li"><a class="spalte_a" href="#">MODEL 3</a> </li>
+      <li class="spalte__li"><a class="spalte_a" href="#">ROADSTER</a> </li>
+       <li class="spalte__li"><a class="spalte_a" href="Dokument/protokoll.html">PERSONEN</a> </li>
+        <li class="mi_spalte"><a class="spalte_a" href="#"><img class="logo_tesla" src="images/logo2.png" alt="Tesla S85"></a> </li>
+ </ul>
+</nav>
+
+
+
+</header>
+
+<body>
+
+<div >
+
+    <img class="mySlides" src="images/1.jpg" >
+    <img class="mySlides" src="images/abc.jpg" >
+    <img class="mySlides" src="images/2.jpg" >
+    <img class="mySlides" src="images/3.jpg" >
+    <img class="mySlides" src="images/4.jpg" >
+    <img class="mySlides" src="images/5.jpg" >
+    <img class="mySlides" src="images/6.jpg" >
+    <img class="mySlides" src="images/7.jpg" >
+
+
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 4000); // Change image every 4 seconds
+}
+</script>
