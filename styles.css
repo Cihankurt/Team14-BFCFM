@@ -1,0 +1,28 @@
+.containerplayer{
+  position: absolute;
+  color: #FFFFFF;
+  background-color: ;
+}
+.card-body{
+  background-color:
+#;
+}
+.card{
+  background-color: #;
+}
+.mycard{
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  height: 32px;
+}
+.lmp{
+   list-style-type: none;
+}
+.left{
+  width: 300px;
+  float:left;
+}
+.right{
+  float: right;
+}
