@@ -1,0 +1,157 @@
+
+
+
+/*Musikalia
+------------------------------------------------------------*/
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+html, body{
+  height: 100%;
+  font-weight: 800;
+}
+
+body{
+  background: white;
+  font-family: Comic sans-serif;
+}
+
+svg {
+    display: block;
+    font: 10.5em 'Comic sans';
+    width: 960px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+	stroke: #FB0202;
+	animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+	stroke: #8B1212;
+	animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+	stroke: #FA2600;
+	animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+	stroke: #3B0202;
+	animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+	stroke: #FCFCFC;
+	animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+	100% {stroke-dashoffset: -35%;}
+}
+/*Icons
+--------------------------------------------------------*/
+.iconn{
+text-align: center;
+
+}
+
+.bild{
+
+ width: 300px;
+
+ margin: 0px;
+ padding: 100px;
+ text-align: center;
+ font-family: lato;
+
+ display: inline-block;
+
+}
+
+/*Text
+--------------------------------------------------------*/
+.design{
+
+  padding-top: 50px;
+  padding-left: 100px;
+
+}
+.text{
+  text-align: left,center;
+  font-family: `lato`,sans-serif;
+  width: 300px;
+  padding:  0px;
+  margin: 0;
+  display: inline-block;
+
+
+}
+
+.text1{
+  text-align: left;
+  font-family: lato;
+  width: 300px;
+  padding:  16px;
+  margin: 0;
+  display: inline-block;
+}
+
+.text2{
+  text-align: left,center;
+  font-family: lato;
+  width: 300px;
+  padding:  16px;
+  margin: 0;
+  display: inline-block;
+}
+
+
+.info{
+  margin: 50px;
+  padding: 0px;
+  text-align: center;
+  background-color: #E06D7B;
+  display: inline-block;
+
+}
+.info1{
+  margin: 50px;
+  padding: 0px;
+  text-align: center;
+  background-color: #A884D8;
+  display: inline-block;
+  background-color: #;
+
+}
+.info2{
+  margin: 50px;
+  padding: 0px;
+  text-align: center;
+  background-color: #88E8E0;
+  display: inline-block;
+
+}
+
+
+
+.images{
+  float: right;
+
+}
+
+.images1{
+  float: left;
+
+}

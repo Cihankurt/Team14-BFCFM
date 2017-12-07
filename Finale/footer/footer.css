@@ -1,0 +1,37 @@
+body {
+  padding-bottom:3em;
+}
+.footer {
+  background-color:#333;
+  display:inline-block;
+  position: fixed;
+  padding: 0;
+  margin: 0;
+  bottom: 0;
+  width: 100%;
+
+}
+
+.foo_li{
+ float: left;
+ list-style-type: none;
+
+}
+.li_li{
+  color:#FFFFFF;
+  padding: 6px;
+   text-align: center;
+ display:inline-block;
+}
+
+.foo_ri{
+color:#FFFFFF;
+padding: 6px;
+text-align: center;
+float: right;
+display:inline-block;
+}
+a:hover{
+  background-color: black;
+}
+a:visited{color:white;}
