@@ -1,0 +1,63 @@
+
+
+.logo_tesla{
+
+height: 30px;
+width: 300px;
+text-align: center ;
+position: absolute;
+font-size: 10px;
+}
+
+
+/* größe von den Bildern
+-----------------------------------------------------------------------------*/
+
+
+
+
+.mySlides {
+
+  width: 1300px;
+  height: 600px;
+  float: center ;
+
+
+}
+
+
+/* Navigation unter dem Bild mit annimation
+-----------------------------------------------------------------------------*/
+.li_spalte {
+    float: left;
+}
+
+.mi_spalte {
+    float: center;
+}
+
+.re_spalte {
+    float: right;
+
+}
+.spalte__b {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    text-align: left;
+  }
+
+
+  .spalte_ba {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+
+  li a:hover {
+      background-color: #111;
+  }
